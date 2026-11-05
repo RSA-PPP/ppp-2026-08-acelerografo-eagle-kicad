@@ -37,7 +37,7 @@ tecnologias:
   - "Control de Versiones y Librerías: Git, GitHub, librerías locales aisladas en `/libs` con variables relativas (${KIPRJMOD})"
 
 repositorio:
-  url: "https://github.com/RSA-PPP/ppp-2026-08-acelerografo-eagle-kicad"
+  url: "https://github.com/RSA-PPP/ppp-2026-08-acelerografo-esp32-kicad"
   rama_base: "main"
 ---
 
@@ -175,7 +175,7 @@ Migrar, auditar y optimizar el diseño de la placa de circuito impreso (PCB) del
 * **Objetivo:** Consolidar la documentación del proyecto migrado para asegurar la reproducibilidad, el mantenimiento futuro y la entrega técnica.
 * **Actividades técnicas:**
   1. Documentar formalmente las mejoras de diseño (condensadores de desacoplo, corrección de pines auditada contra firmware, planos de masa optimizados) realizadas respecto al diseño original de EAGLE.
-  2. Elaborar el archivo `README.md` operativo en la raíz del repositorio [ppp-2026-08-acelerografo-eagle-kicad](https://github.com/RSA-PPP/ppp-2026-08-acelerografo-eagle-kicad) detallando:
+  2. Elaborar el archivo `README.md` operativo en la raíz del repositorio [ppp-2026-08-acelerografo-esp32-kicad](https://github.com/RSA-PPP/ppp-2026-08-acelerografo-esp32-kicad) detallando:
      - Versión exacta de KiCad utilizada (v10).
      - Instrucciones detalladas de instalación y configuración de `jlc2kicadlib`.
      - Resumen de la asignación de pines auditada y validada contra el firmware en C++.
@@ -208,7 +208,7 @@ El plan de trabajo comprende **96 horas** distribuidas en **6 semanas** con una 
 ## 5. Entregables y Criterios de Éxito de las Prácticas Preprofesionales
 
 1. **Repositorio Autónomo y Portable en KiCad 10:**
-   * Archivos de esquemático (`.kicad_sch`) y de circuito impreso (`.kicad_pcb`) completos, funcionales y auditados contra el firmware original de adquisición de datos en: [ppp-2026-08-acelerografo-eagle-kicad](https://github.com/RSA-PPP/ppp-2026-08-acelerografo-eagle-kicad).
+   * Archivos de esquemático (`.kicad_sch`) y de circuito impreso (`.kicad_pcb`) completos, funcionales y auditados contra el firmware original de adquisición de datos en: [ppp-2026-08-acelerografo-esp32-kicad](https://github.com/RSA-PPP/ppp-2026-08-acelerografo-esp32-kicad).
    * Carpeta local `/libs` con símbolos, huellas y modelos 3D STEP asociados mediante rutas relativas (`${KIPRJMOD}`).
 2. **Paquete de Fabricación Validador (Production Release):**
    * Archivos Gerber RS-274X, taladrado NC Drill, Lista de Materiales (`BOM.csv`) y archivo de coordenadas de colocación (`CPL.csv`) listos para ser procesados por JLCPCB sin modificaciones manuales intermedias.

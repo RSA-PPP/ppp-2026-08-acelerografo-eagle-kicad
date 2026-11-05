@@ -1,4 +1,4 @@
-# ppp-2026-08-acelerografo-eagle-kicad
+# ppp-2026-08-acelerografo-esp32-kicad
 
 > **Red Sísmica del Austro (RSA) — Universidad de Cuenca**  
 > Prácticas Preprofesionales (PPP) • Diseño de Hardware Electrónico, CAD/EDA Libre y Estandarización PCBA (JLCPCB)
@@ -60,7 +60,7 @@ El circuito impreso integra los siguientes periféricos clave, cuya corresponden
 La organización respeta fielmente la estructura desarrollada por el practicante, preservando las capturas de referencia del diseño previo en EAGLE y concentrando el nuevo diseño auditado en KiCad 10:
 
 ```text
-ppp-2026-08-acelerografo-eagle-kicad/
+ppp-2026-08-acelerografo-esp32-kicad/
 │
 ├── docs/                                          # Documentación técnica de apoyo y gobernanza PPP
 │   ├── especificacion_hardware_original.md        # Detalle de circuitos integrados, valores pasivos y pines
